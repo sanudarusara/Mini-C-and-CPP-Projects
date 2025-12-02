@@ -1,4 +1,4 @@
-♟️ Chess Game in C
+# ♟️ Chess Game in C
 
 A simple console-based Chess program that displays an ASCII chessboard, allows you to move pieces using coordinate inputs, and tracks captured black and white pieces.
 This was one of my earliest programming projects created during my first year of university using only basic C concepts.
@@ -13,7 +13,7 @@ You can select a piece and then choose a destination square to “move” it.
 ✔️ Both white and black pieces can be moved<br>
 ✔️ No OOP or advanced rules — simple logic only
 
-📍 How the Program Works
+# 📍 How the Program Works
 1. Board Display<br>
 The program prints a stylized chessboard using ASCII formatting.
 
@@ -35,7 +35,7 @@ Example:
   PW = White Pawn<br>
   RB = Black Rook
 
-📍 How to Play / Input Format<br><br>
+# 📍 How to Play / Input Format<br><br>
 ➤ Step 1: Enter the position of the piece you want to move
 
   Format : row.column<br>
@@ -46,7 +46,7 @@ Example:
 ➤ Step 2: Enter the destination position<br>
   Again in the same format: row.column
 
-📍 Important: Coordinate System Explanation<br><br>
+# 📍 Important: Coordinate System Explanation<br><br>
 The board is displayed with rows numbered 8 to 1 (top to bottom).<br>
 So the input uses the visual row numbers shown on the left side.
 
@@ -62,7 +62,7 @@ Then move it to row 5, column 2:
     Enter the MOVE: 5.1<br>
   Board updates, pawn appears on new square.
 
-📍 Capture System Explained
+# 📍 Capture System Explained
 
 If you move onto a square containing an opponent’s piece, the program automatically:<br>
 ✔️ Detects the color<br>
@@ -91,14 +91,14 @@ If a black piece exists at (4,3):<br>
 Captured pieces print like:<br>
   Captured Black PIECES: 1 --> PB,
 
-📍 Stopping the Program
+# 📍 Stopping the Program
 
 To exit the game:<br>
   Enter the PIECE: 0.0<br>
 The program prints:<br>
   Congratulations WINNER!!!<br>
 
-⚠️ Limitations (Because This Is a Beginner Project)
+# ⚠️ Limitations (Because This Is a Beginner Project)
 
 This program does NOT enforce the rules of chess:
 
@@ -110,7 +110,7 @@ This program does NOT enforce the rules of chess:
 
 It’s purely a manual movement simulator with capture tracking — but perfect for a beginner-level C project.
 
-📍 How to Compile & Run
+# 📍 How to Compile & Run
 
   Compile with GCC<br>
     gcc chess.c -o chess<br><br>
@@ -118,14 +118,14 @@ It’s purely a manual movement simulator with capture tracking — but perfect 
     Linux/Mac: ./chess<br>
     Windows CMD: chess.exe<br>
       
-📍 Demo<br>
-A short demo video showing gameplay is included / linked in this folder.
+# 📍 Demo<br>
+A short demo video showing gameplay is included.
 
-📚 What I Learned from This Project
+# 📚 What I Learned from This Project
 
-  Working with 2D arrays<br>
-  String manipulation in C<br>
-  Designing a CLI-based board layout<br>
-  Handling coordinates and mapping user input<br>
-  Basic game-state updates<br>
-  Tracking captures with arrays<br>
+- Working with 2D arrays<br>
+- String manipulation in C<br>
+- Designing a CLI-based board layout<br>
+- Handling coordinates and mapping user input<br>
+- Basic game-state updates<br>
+- Tracking captures with arrays<br>
