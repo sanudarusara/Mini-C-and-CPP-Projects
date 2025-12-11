@@ -1,5 +1,7 @@
 # ♟️ Chess Game in C
 
+![Game Start](images/game_start1.png)
+
 A simple console-based Chess program that displays an ASCII chessboard, allows you to move pieces using coordinate inputs, and tracks captured black and white pieces.
 This was one of my earliest programming projects created during my first year of university using only basic C concepts.
 
