@@ -1,5 +1,7 @@
 # 🔐 Custom Text Encryptor & Decryptor in C++
 
+![Dencrypter](https://github.com/sanudarusara/Mini-C-and-CPP-Projects/blob/main/CPP-DENCRYPTER/images/Dencrypter%20Start.JPG)
+
 A simple console-based encryption/decryption program that allows you to create your own custom “language” by pairing letters together. The program can encrypt or decrypt any message based on a user-defined letter-mapping stored in a text file.
 
 This was built as part of my ongoing C/C++ mini practice projects.
