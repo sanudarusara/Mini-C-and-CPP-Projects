@@ -1,5 +1,7 @@
 # 🎮 Tic Tac Toe in C++
 
+![Tic-Tac-Toe](https://github.com/sanudarusara/Mini-C-and-CPP-Projects/blob/main/CPP-Tic-Tac-Toe-Game/images/Error%20Validation.JPG)
+
 A simple console-based Tic Tac Toe game built using basic C++ concepts.
 Players take turns entering grid positions, and the program validates moves, updates the board, detects wins, and identifies draw situations.
 
