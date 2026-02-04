@@ -1,5 +1,7 @@
 # 🧩 Console-Based Maze Path Finder (C++)
 
+![Game Play](images/puzzle2.png)
+
 A simple console-based maze visualization and path-finding program built using basic C++ concepts.
 This project was created during my early university days to understand 2D arrays, conditional logic, and coordinate-based movement — without using advanced algorithms or OOP.
 
@@ -47,18 +49,18 @@ Enter the no.of columns of the maze: 6<br>
 
 You enter each row manually using 0 and 1.
 
-Enter row 1: 1 1 1 1 1 1<br>
-Enter row 2: 1 0 0 0 0 1<br>
-Enter row 3: 1 0 1 1 0 1<br>
-Enter row 4: 1 0 0 0 0 1<br>
-Enter row 5: 1 1 1 1 1 1<br>
+Enter row 1: 0 0 0 1 1 1<br>
+Enter row 2: 1 1 0 1 1 1<br>
+Enter row 3: 1 0 0 1 1 1<br>
+Enter row 4: 1 0 1 1 0 0<br>
+Enter row 5: 1 0 0 0 0 1<br>
 
 **Step 3: Enter Start & End Points**
 
 Coordinates are entered as row column (1-based indexing).
 
-Enter the start point : 2 2<br>
-Enter the end point   : 4 5
+Enter the start point : 1 1<br>
+Enter the end point   : 4 6
 
 The program internally converts these to 0-based indices.
 
